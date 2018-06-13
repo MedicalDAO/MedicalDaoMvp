@@ -1,0 +1,23 @@
+{
+  "name": "MedicalDaoMvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./merge"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@daostack/arc": "0.0.0-alpha.42"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0",
+    "sol-merger": "^0.1.2"
+  }
+}
